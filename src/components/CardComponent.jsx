@@ -5,13 +5,13 @@ const CardComponent = () => {
   return (
     <div className="container mt-3">
       <div className="row justify-content-center">
-        <div className="col-md-6">
+        <div className="col-md-12">
           <div className="card shadow-sm">
-            {/* <img
+            <img
               src="https://via.placeholder.com/600x400"
               className="card-img-top"
               alt="Card image cap"
-            /> */}
+            />
             <div className="card-body">
               <h5 className="card-title">Card Title</h5>
               <p className="card-text">
