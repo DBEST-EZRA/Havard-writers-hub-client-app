@@ -1,7 +1,21 @@
 import React from "react";
+import "./Content.css";
 
-const AdminDashboard = () => {
-  return <div>AdminDashboard hhbgvjhbjbehvbvubwjkmvbwhvbwjvbvyuwervbjksvb whvbuhvbwjkbvwhwvbwibvjwbvwh</div>;
+const UserDashboard = () => {
+  return (
+    <div className="content-container">
+      <div className="grid-container">
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+        <div className="grid-item">+</div>
+      </div>
+    </div>
+  );
 };
 
-export default AdminDashboard;
+export default UserDashboard;
