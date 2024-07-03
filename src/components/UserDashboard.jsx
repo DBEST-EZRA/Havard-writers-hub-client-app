@@ -14,19 +14,19 @@ const UserDashboard = () => {
       <div className="stats">
         <div className="stat-card">
           <h5>Balance</h5>
-          <h5>$0</h5>
+          <h5>kes 0</h5>
         </div>
         <div className="stat-card">
-          <h5>Balance</h5>
-          <h5>$0</h5>
+          <h5>Tasks</h5>
+          <h5>0</h5>
         </div>
         <div className="stat-card">
-          <h5>Balance</h5>
-          <h5>$0</h5>
+          <h5>Pending Tasks</h5>
+          <h5>0</h5>
         </div>
         <div className="stat-card">
-          <h5>Balance</h5>
-          <h5>$0</h5>
+          <h5>Rejects/Corrections</h5>
+          <h5>0</h5>
         </div>
       </div>
       <div className="grid-container">

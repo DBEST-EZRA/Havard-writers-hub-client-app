@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTachometerAlt, faUser, faInbox, faChalkboardTeacher, faQuestionCircle, faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Aside.css";
 
 const Aside = () => {
@@ -10,32 +12,33 @@ const Aside = () => {
         <ul className="list-unstyled">
           <li>
             <Link to="/dashboard" className="sidebar-link">
-              Dashboard
+              <FontAwesomeIcon icon={faTachometerAlt} /> Dashboard
             </Link>
           </li>
           <li>
             <Link to="/admin" className="sidebar-link">
-              Admin <span className="badge bg-secondary">Pro</span>
+              <FontAwesomeIcon icon={faUser} /> Account
+              {/* Account <span className="badge bg-secondary">Pro</span> */}
             </Link>
           </li>
           <li>
             <Link to="/inbox" className="sidebar-link">
-              Inbox <span className="badge bg-primary">3</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/users" className="sidebar-link">
-              Users
+              <FontAwesomeIcon icon={faInbox} /> Inbox <span className="badge bg-primary">3</span>
             </Link>
           </li>
           <li>
             <Link to="/products" className="sidebar-link">
-              Products
+              <FontAwesomeIcon icon={faChalkboardTeacher} /> Trainings
+            </Link>
+          </li>
+          <li>
+            <Link to="/users" className="sidebar-link">
+              <FontAwesomeIcon icon={faQuestionCircle} /> Help
             </Link>
           </li>
           <li>
             <Link to="/logout" className="sidebar-link">
-              Logout
+              <FontAwesomeIcon icon={faSignOutAlt} /> Logout
             </Link>
           </li>
         </ul>

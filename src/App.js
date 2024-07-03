@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<UserDashboard />} />
             <Route path="dashboard" element={<UserDashboard />} />
-            <Route path="admin" element={<AdminDashboard />} />
+            {/* <Route path="admin" element={<AdminDashboard />} /> */}
           </Routes>
         </div>
       </div>
